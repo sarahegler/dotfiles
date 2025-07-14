@@ -3,9 +3,9 @@
 #!/bin/bash
 
 # Input arguments
-email=${1:-"jpl.hughes@btinternet.com"}
-name=${2:-"John Hughes"}
-github_url=${3:-""}
+email=${1:-"sarahjaneegler@gmail.com"}
+name=${2:-"Sarah Egler"}
+github_url=${3:-"https://github.com/safety-research/finetuning-api-safety.git"}
 
 # 0) Setup git
 git config --global user.email "$email"
